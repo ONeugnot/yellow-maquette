@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f4d04e;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	padding: 12px;
+	font-family: "Figtree", sans-serif;
+}
+
+.box {
+	background-color: white;
+	height: 78vh;
+	width: 25%;
+	border-radius: 20px;
+	box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+
+	border: 1px solid black;
+}
+
+.img1 {
+	width: 100%;
+	padding: 18px;
+}
+
+header {
+	display: flex;
+}
+
+.btn1 {
+	position: relative;
+	padding: 5px;
+	background-color: #f4d04e;
+	font-weight: 800;
+	font-size: 15px;
+	left: 5%;
+	border-radius: 12px;
+	border: 1px solid #f4d04e;
+}
+
+.btn1:hover {
+	color: white;
+}
+
+.publi {
+	padding: 22px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.css {
+	position: relative;
+	font-size: 26px;
+	font-weight: 800;
+	left: 5%;
+}
+
+.p-1 {
+	padding: 22px;
+	color: grey;
+}
+
+.photo {
+	display: flex;
+	flex-direction: row;
+}
+
+.img2 {
+	position: relative;
+	padding: 1px;
+	left: 5%;
+	width: 10%;
+}
+
+.p3 {
+	position: relative;
+	padding: 12px;
+	left: 5%;
+	font-size: 14px;
+	font-weight: 800;
+}
